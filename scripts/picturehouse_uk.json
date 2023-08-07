@@ -1,0 +1,13 @@
+{
+    "filter": [
+        {
+            "field": "From",
+            "match": "picturehouses.com",
+            "mimeType": "message/rfc822",
+            "scope": "Current"
+        }
+    ],
+    "function": "main",
+    "mimeType": "message/rfc822",
+    "script": "picturehouse_uk.js"
+}
