@@ -10,3 +10,5 @@ The following scripts are included in this repository:
 |-----------:|----------|
 |Picturehouse Cinemas (picturehouses.com)|Confirmation of film booking|
 |Southbank Centre (southbankcentre.co.uk)|Confirmation of event booking|
+|Theatre Royal Haymarket (boxoffice@trh.co.uk)|Confirmation of event booking|
+
