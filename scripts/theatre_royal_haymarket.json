@@ -1,0 +1,13 @@
+{
+    "filter": [
+        {
+            "match": "^boxoffice@trh.co.uk$",
+            "field": "From",
+            "mimeType": "message/rfc822",
+            "scope": "Ancestors"
+        }
+    ],
+    "function": "main",
+    "mimeType": "text/plain",
+    "script": "theatre_royal_haymarket.js"
+}
