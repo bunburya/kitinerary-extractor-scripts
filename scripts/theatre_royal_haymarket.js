@@ -18,13 +18,13 @@ function main(text, node) {
         "dddd d MMM yyyy @ hh:mm",
         "en"
     );
-    let address = res.reservationFor.location.address;
-    address.buildingFullName = loc;
+    res.reservationFor.location.name = loc;
     if (loc == "Theatre Royal Haymarket") {
-        address.streetAddress = "Haymarket";
-        address.addressRegion = "London";
-        address.addressCountry = "GB";
-        address.postalCode = "SW1Y 4HT";
+        let addr = res.reservationFor.location.address;
+        addr.streetAddress = "Haymarket";
+        addr.addressRegion = "London";
+        addr.addressCountry = "GB";
+        addr.postalCode = "SW1Y 4HT";
     }
     res.reservationFor.location.geo = {
         "latitude": 51.50861,

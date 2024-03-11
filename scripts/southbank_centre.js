@@ -34,9 +34,9 @@ function main(html) {
 
     let res = JsonLd.newEventReservation();
     res.reservationFor.startDate = parseDateTime(dateTime);
+    res.reservationFor.location.name = buildings[building] || building;
     let address = res.reservationFor.location.address;
-    let buildingFullName = buildings[building] || building;
-    address.streetAddress = `${buildingFullName}, Southbank Centre`
+    address.streetAddress = "Southbank Centre";
     address.addressRegion = "London";
     address.addressCountry = "GB";
     address.postalCode = "SE1 8XX";
