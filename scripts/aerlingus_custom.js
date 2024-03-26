@@ -11,7 +11,7 @@ function parseFlight(match, bookingRef) {
 
     var res = JsonLd.newFlightReservation();
     res.reservationNumber = bookingRef;
-    res.reservationFor.flightNumber = airlineIata + ' ' + flightNo;
+    res.reservationFor.flightNumber = flightNo;
     res.reservationFor.departureTime = JsonLd.toDateTime(date + ' ' + departTime,
                                                          "ddd, d MMM yyyy HH:mm", "en");
     res.reservationFor.arrivalTime = JsonLd.toDateTime(date + ' ' + arriveTime,
