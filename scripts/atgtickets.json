@@ -1,0 +1,13 @@
+{
+  "filter": [
+    {
+      "match": "boxoffice@info.atgtickets.com",
+      "field": "From",
+      "mimeType": "message/rfc822",
+      "scope": "Ancestors"
+    }
+  ],
+  "function": "main",
+  "mimeType": "application/pdf",
+  "script": "atgtickets.js"
+}
