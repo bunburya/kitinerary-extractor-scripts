@@ -10,8 +10,8 @@ The following scripts are included in this repository:
 |-----------:|----------|
 |Picturehouse Cinemas (picturehouses.com)|Confirmation of film booking|
 |Southbank Centre (southbankcentre.co.uk)|Confirmation of event booking|
-|Theatre Royal Haymarket (boxoffice@trh.co.uk)|Confirmation of event booking|
+|Theatre Royal Haymarket (<boxoffice@trh.co.uk>)|Confirmation of event booking|
 |Tickemaster (ticketmaster.co.uk)|Confirmation of event booking|
 |Aer Lingus (aerlingus.com)|Confirmation of flight booking (new format seen in March 2024)|
 |Vueling (comms.vueling.com)|Confirmation of flight booking|
-
+|ATG Tickets (<boxoffice@info.atgtickets.com>)|Tickets email|
